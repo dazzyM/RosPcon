@@ -1,12 +1,10 @@
 {
-  "name": "ROS-PCon",
+  "name": "open-react-template",
   "version": "0.1.0",
-  "homepage": "https://github.com/dazzyM/Rospcon.github.io.git",
   "private": true,
   "dependencies": {
     "classnames": "^2.2.6",
     "lodash": "^4.17.15",
-    "npm-git-install": "^0.3.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-ga": "^2.7.0",
@@ -15,9 +13,11 @@
     "react-youtube": "^9.0.2",
     "sass": "^1.49.7"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dazzyM/RosPcon.git"
+  },
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
