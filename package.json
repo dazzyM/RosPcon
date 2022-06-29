@@ -1,5 +1,6 @@
 {
   "name": "open-react-template",
+  "homepage": "https://dazzyM.github.io/RosPcon"
   "version": "0.1.0",
   "private": true,
   "dependencies": {
